@@ -3,11 +3,11 @@ import java.util.Scanner;
 public class Task3  {
     public static void main() {
         Scanner scan = new Scanner(System.in); //initialize Scanner for input from keyboard
-        int n = scan.nextInt(); //input size of array
-        if(isPrime(n,n-1)==1)
-            System.out.printf("Prime"); //print the return of the function
+        int n = scan.nextInt(); //input number that you need to check for primeness
+        if(isPrime(n,n-1)==1) //check the result of the function
+            System.out.printf("Prime"); //print the result
         else
-            System.out.printf("Composite"); //print the return of the function
+            System.out.printf("Composite");
 
     }
 
