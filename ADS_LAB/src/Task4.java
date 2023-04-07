@@ -14,7 +14,7 @@ public class Task4  {
      * @return returns 1 if number is prime and 0 if its composite
      */
     public static int factorialOf(int number) { //function that finds factorial of the number
-        if(number==0){ //stop the function if index reaches the final element of the array
+        if(number==0){ //stop the function if number reaches 0
             return 1;
         }
         else //recursive case
