@@ -1,5 +1,3 @@
-import com.sun.jdi.Value;
-
 import java.util.Scanner;
 
 public class Task8 {
