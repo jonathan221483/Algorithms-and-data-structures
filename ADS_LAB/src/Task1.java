@@ -13,7 +13,7 @@ public class Task1 {
     }
 
     /**
-     *
+     * fuction finds minimum value from array
      * @param array array with numbers
      * @param minimum the minimum value
      * @param i index of the array
