@@ -12,12 +12,12 @@ public class Task3  {
     }
 
     /**
-     *
+     * function checks whether the number is prime or not
      * @param number the number that you need to check if its prime
      * @param i counter that decreases and checks number for division
      * @return returns 1 if number is prime and 0 if its composite
      */
-    public static int isPrime(int number, int i) { //function checks whether the number is prime or not
+    public static int isPrime(int number, int i) {
         if(i==1){ //stop the function if index reaches the final element of the array
             return 1;
         }

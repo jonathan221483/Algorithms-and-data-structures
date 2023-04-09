@@ -12,7 +12,7 @@ public class Task2 {
     }
 
     /**
-     *
+     * fuction finds average value in array
      * @param array array with numbers
      * @param i index of the array
      * @return average of all numbers in array

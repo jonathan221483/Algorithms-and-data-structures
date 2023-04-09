@@ -9,12 +9,12 @@ public class Task6  {
     }
 
     /**
-     *
+     * function finds particular power of the number
      * @param number the number
      * @param power the power of the number
      * @return the resulting number in a given power
      */
-    public static int powerOf(int number,int power) { //function that finds particular power of the number
+    public static int powerOf(int number,int power) {
         if(power==0) //stop the function if number reaches 0 (base case)
             return 1;
         else //recursive case

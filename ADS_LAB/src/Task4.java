@@ -9,7 +9,7 @@ public class Task4  {
     }
 
     /**
-     *
+     * function finds factorial of the number
      * @param number the number that you need to find factorial
      * @return returns 1 if number is prime and 0 if its composite
      */
