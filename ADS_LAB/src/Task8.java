@@ -17,7 +17,7 @@ public class Task8 {
      * @return boolean value true if there are no letters, false if there are letters
      */
     public static boolean checkDigits(String line, int i) {
-        if(i==0){ //stop the function if index reaches the final element of the array
+        if(i==0){ //stop the function if index reaches the final element of the String
             return Character.isDigit(line.charAt(i));
         }
         else //recursive case
